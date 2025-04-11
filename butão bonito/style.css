@@ -38,4 +38,7 @@ button::after {
     height: 100%;
     width: 100%;
     background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
